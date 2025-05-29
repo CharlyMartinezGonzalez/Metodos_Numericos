@@ -217,7 +217,7 @@ y(0) = 1<br>
 h = 0.2<br>
 Intervalo: [0,1]<br>
 
-### ✅ Resultado
+### Resultado
 
 ```
 x       y
