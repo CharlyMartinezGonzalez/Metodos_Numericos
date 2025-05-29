@@ -59,12 +59,10 @@ x       y
 <a name="método-de-paso-múltiple-adams-bashforth-4-pasos"></a>
 
 ### Pseudocódigo
-
-```plaintext
 Inicio
 
   Mostrar "Ingrese la función f(x, y) (ejemplo: 2*y - 6):"
-    Leer funcionStr
+    Leer funcionStr  // Ejemplo: "2*y - 6"
 
   Mostrar "Ingrese x0:"
     Leer x0
@@ -78,7 +76,7 @@ Inicio
   Mostrar "Ingrese h (tamaño del paso):"
     Leer h
 
-  n ← (xf - x0) / h
+  n ← (xf - x0) / h  // Número de pasos
 
   x[0] ← x0
   y[0] ← y0
@@ -111,8 +109,6 @@ Subproceso evaluar(expresión, x, y)
   Asignar valor y a variable "y" en la expresión
   Retornar resultado de evaluar la expresión
 Fin Subproceso
-```
-
 
 ### Caso de prueba
 dy/dx = y <br>
