@@ -60,10 +60,11 @@ x       y
 
 ### Pseudocódigo
 
+```plaintext
 Inicio
 
   Mostrar "Ingrese la función f(x, y) (ejemplo: 2*y - 6):"
-    Leer funcionStr  // Ejemplo: "2*y - 6"
+    Leer funcionStr
 
   Mostrar "Ingrese x0:"
     Leer x0
@@ -77,7 +78,7 @@ Inicio
   Mostrar "Ingrese h (tamaño del paso):"
     Leer h
 
-  n ← (xf - x0) / h  // Número de pasos
+  n ← (xf - x0) / h
 
   x[0] ← x0
   y[0] ← y0
@@ -110,6 +111,7 @@ Subproceso evaluar(expresión, x, y)
   Asignar valor y a variable "y" en la expresión
   Retornar resultado de evaluar la expresión
 Fin Subproceso
+```
 
 
 ### Caso de prueba
@@ -139,10 +141,11 @@ Paso     t       y (AB4)     y (Exacto)     Error Abs.
 
 ### Pseudocódigo
 
+```plaintext
 Entradas: 
   f(x, y): función que representa la derivada o sistema de derivadas 
   x0: valor inicial de x 
-  y0: valor inicial de y (puede ser un vector si es un sistema) 
+  y0: valor inicial de y 
   h: tamaño del paso 
   n: número de pasos 
 
@@ -154,8 +157,8 @@ Proceso:
     y ← y + h * f(x, y) 
     x ← x + h 
 
-    (Opcional: guardar o mostrar el valor de x y y) 
 Fin
+```
 
 
 ### Caso de prueba
@@ -190,36 +193,21 @@ x       y
 
 ### Pseudocódigo
 
-Inicio
+```plaintext
+Para i desde 1 hasta n hacer:
+  k1 = f(x0, y0)
+  k2 = f(x0 + h/2, y0 + (h/2) * k1)
+  k3 = f(x0 + h/2, y0 + (h/2) * k2)
+  k4 = f(x0 + h, y0 + h * k3)
 
-  Definir función f(x, y) como x + y  // o la función que sea
+  y1 = y0 + (h/6) * (k1 + 2*k2 + 2*k3 + k4)
 
-  Leer x0   // valor inicial de x
-  Leer y0   // valor inicial de y
-  Leer xf   // valor final de x
-  Leer h    // tamaño del paso
+  x0 = x0 + h
+  y0 = y1
 
-  Calcular n = (xf - x0) / h  // número de pasos
-
-  Imprimir "x    y"
-  Imprimir x0, y0   // imprimir valor inicial
-
-  Para i desde 1 hasta n hacer:
-    k1 = f(x0, y0)
-    k2 = f(x0 + h/2, y0 + (h/2) * k1)
-    k3 = f(x0 + h/2, y0 + (h/2) * k2)
-    k4 = f(x0 + h, y0 + h * k3)
-
-    y1 = y0 + (h/6) * (k1 + 2*k2 + 2*k3 + k4)
-
-    x0 = x0 + h
-    y0 = y1
-
-    Imprimir x0, y0
-
-  Fin Para
-
-Fin
+  Imprimir x0, y0
+Fin Para
+```
 
 ### Caso de prueba
 
@@ -248,6 +236,7 @@ x       y
 
 ### Pseudocódigo
 
+```plaintext
 Función Taylor(f, a, x, n)
 
   Inicializar resultado = 0
@@ -264,8 +253,8 @@ Función Taylor(f, a, x, n)
   Fin Para
 
   Retornar resultado
-
 Fin Función
+```
 
 
 ### Caso de prueba
