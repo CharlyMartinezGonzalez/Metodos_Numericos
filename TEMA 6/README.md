@@ -59,6 +59,7 @@ x       y
 <a name="método-de-paso-múltiple-adams-bashforth-4-pasos"></a>
 
 ### Pseudocódigo
+
 Inicio
 
   Mostrar "Ingrese la función f(x, y) (ejemplo: 2*y - 6):"
