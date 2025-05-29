@@ -1,3 +1,13 @@
+# Métodos Numéricos para Solución de Ecuaciones
+
+## Índice de Métodos
+
+1. [Método de Bisección](#método-de-bisección)
+2. [Método de la Regla Falsa](#método-de-la-regla-falsa)
+3. [Método de Newton-Raphson](#método-de-newton-raphson)
+4. [Método de Punto Fijo](#método-de-punto-fijo)
+5. [Método de la Secante](#método-de-la-secante)
+
 
 ## Método de Bisección
 <a name="método-de-bisección"></a>
