@@ -13,6 +13,7 @@
 
 ### Pseudocódigo
 
+```plaintext
 Entradas: 
   f(x, y): función que representa la derivada 
   x0: valor inicial de x 
@@ -28,16 +29,15 @@ Proceso:
     y ← y + h * Φ(x, y, h) 
     x ← x + h 
 
-    (Opcional: guardar o mostrar el valor de x y y) 
-
 Fin
+```
 
 
 ### Caso de prueba
 dy/dx = x + y<br>
 y(0) = 1<br>
 
-### ✅ Resultado
+### Resultado
 ```
 x       y     
 0.0     1.0
