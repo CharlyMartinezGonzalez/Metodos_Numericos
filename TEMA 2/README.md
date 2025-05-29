@@ -14,7 +14,8 @@
 
 ### Pseudocódigo
 
-Proceso 
+Proceso Biseccion
+
     Escribir "Ingrese límite inferior del intervalo (a):"
     Leer a
     Escribir "Ingrese límite superior del intervalo (b):"
@@ -53,14 +54,14 @@ Proceso
 FinProceso
 
 ### Caso de prueba
-Función: cos(x) - x
-Entradas:
-a = 0
+Función: cos(x) - x<br>
+Entradas:<br>
+a = 0<br>
 b = 1
-
-Tolerancia = 0.0001
-Salida esperada:
-Raíz aproximada: 0.739085
+<br><br>
+Tolerancia = 0.0001<br>
+Salida esperada:<br>
+Raíz aproximada: 0.739085<br>
 Iteraciones: 14
 
 ---
@@ -71,8 +72,6 @@ Iteraciones: 14
 ### Pseudocódigo
 
 Proceso ReglaFalsa
-    Definir a, b, c, fa, fb, fc, error Como Real
-    Definir iteraciones Como Entero
     
     Escribir "Ingrese límite inferior (a):"
     Leer a
@@ -112,14 +111,15 @@ Proceso ReglaFalsa
 FinProceso
 
 ### Caso de prueba
-Función: ln(x) + x
-Entradas:
-a = 0.1
+Función: ln(x) + x <br>
+Entradas: <br>
+a = 0.1<br>
 b = 1
-Tolerancia = 0.0001
-Salida esperada:
-Raíz aproximada: 0.567143
-Iteraciones: 6
+<br>
+Tolerancia = 0.0001<br>
+Salida esperada:<br>
+Raíz aproximada: 0.567143<br>
+Iteraciones: 6<br>
 
 ---
 
@@ -129,8 +129,6 @@ Iteraciones: 6
 ### Pseudocódigo
 
 Proceso NewtonRaphson
-    Definir x, fx, dfx, xAnterior, error Como Real
-    Definir iteraciones Como Entero
     
     Escribir "Ingrese valor inicial (x0):"
     Leer x
@@ -157,13 +155,13 @@ Proceso NewtonRaphson
 FinProceso
 
 ### Caso de prueba
-Función: x² - sen(x)
-Entradas:
-x0 = 0.5
-Tolerancia = 0.0001
-Salida esperada:
-Raíz aproximada: 0.876726
-Iteraciones: 4
+Función: x² - sen(x)<br>
+Entradas:<br>
+x0 = 0.5<br>
+Tolerancia = 0.0001<br>
+Salida esperada:<br>
+Raíz aproximada: 0.876726<br>
+Iteraciones: 4<br>
 
 ---
 
@@ -173,9 +171,7 @@ Iteraciones: 4
 ### Pseudocódigo
 
 Proceso PuntoFijo
-    Definir x, xAnterior, error Como Real
-    Definir iteraciones Como Entero
-    
+  
     Escribir "Ingrese valor inicial (x0):"
     Leer x
     Escribir "Ingrese tolerancia:"
@@ -193,13 +189,13 @@ Proceso PuntoFijo
 FinProceso
 
 ### Caso de prueba
-Función: e^(-x)
-Entradas:
-x0 = 0.5
-Tolerancia = 0.0001
-Salida esperada:
-Raíz aproximada: 0.567143
-Iteraciones: 29
+Función: e^(-x)<br>
+Entradas:<br>
+x0 = 0.5<br>
+Tolerancia = 0.0001<br>
+Salida esperada:<br>
+Raíz aproximada: 0.567143<br>
+Iteraciones: 29<br>
 
 ---
 
@@ -209,8 +205,6 @@ Iteraciones: 29
 ### Pseudocódigo
 
 Proceso Secante
-    Definir x0, x1, x2, fx0, fx1, error Como Real
-    Definir iteraciones Como Entero
     
     Escribir "Ingrese x0:"
     Leer x0
@@ -238,11 +232,11 @@ Proceso Secante
 FinProceso
 
 ### Caso de prueba
-Función: x³ - 2x - 5
-Entradas:
-x0 = 2
-x1 = 3
-Tolerancia = 0.0001
-Salida esperada:
-Raíz aproximada: 2.094551
-Iteraciones: 6
+Función: x³ - 2x - 5<br>
+Entradas:<br>
+x0 = 2<br>
+x1 = 3<br>
+Tolerancia = 0.0001<br>
+Salida esperada:<br>
+Raíz aproximada: 2.094551<br>
+Iteraciones: 6<br>
