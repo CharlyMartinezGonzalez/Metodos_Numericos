@@ -37,7 +37,7 @@ Proceso InterpolacionLineal
 FinProceso
 
 ### Caso de prueba
-<img src="imagenes/Ejercicios/1.png" alt="Mi imagen" width="300"/><br>
+<img src="Imagenes/Ejercicios/1.png"  width="300"/><br>
 
 ### Resultado
 El valor interpolado de y es: 37.65<br>
