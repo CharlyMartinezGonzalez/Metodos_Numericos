@@ -60,6 +60,7 @@ x       y
 
 ### Pseudocódigo
 
+```plaintext
 Inicio
 
   Mostrar "Ingrese la función f(x, y) (ejemplo: 2*y - 6):"
@@ -110,6 +111,7 @@ Subproceso evaluar(expresión, x, y)
   Asignar valor y a variable "y" en la expresión
   Retornar resultado de evaluar la expresión
 Fin Subproceso
+```
 
 ### Caso de prueba
 dy/dx = y <br>
