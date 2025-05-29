@@ -84,7 +84,7 @@ Proceso InterpolacionNewton
 FinProceso
 
 ### Caso de prueba
-<img src="imagenes/Ejercicios/2.png" alt="Mi imagen" width="300"/><br>
+<img src="./Imagenes/Ejercicios/2.png" alt="Mi imagen" width="300"/><br>
 
 ### Resultado
 El valor interpolado en x = 4 es: 36.6667<br>
@@ -127,7 +127,7 @@ Proceso MinimosCuadrados
 FinProceso
 
 ### Caso de prueba
-<img src="imagenes/Ejercicios/4.png" alt="Mi imagen" width="300"/><br>
+<img src="./imagenes/Ejercicios/4.png" alt="Mi imagen" width="300"/><br>
 
 ### Resultado
 La recta de regresión es: y = -10 + 60x<br>
@@ -171,7 +171,7 @@ Proceso Correlacion
 FinProceso
 
 ### Caso de prueba
-<img src="imagenes/Ejercicios/3.png" alt="Mi imagen" width="300"/><br><br>
+<img src="./Imagenes/Ejercicios/3.png" alt="Mi imagen" width="300"/><br><br>
 
 ### Resultado
 Ecuación de regresión: Y = 52.4 + -1.08X<br>
