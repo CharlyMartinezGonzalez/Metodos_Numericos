@@ -14,10 +14,7 @@
 
 ### Pseudocódigo
 
-Proceso Biseccion
-    Definir a, b, c, fa, fb, fc, error Como Real
-    Definir iteraciones Como Entero
-    
+Proceso 
     Escribir "Ingrese límite inferior del intervalo (a):"
     Leer a
     Escribir "Ingrese límite superior del intervalo (b):"
