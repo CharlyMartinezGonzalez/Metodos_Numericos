@@ -127,7 +127,7 @@ Proceso MinimosCuadrados
 FinProceso
 
 ### Caso de prueba
-<img src="./imagenes/Ejercicios/4.png" alt="Mi imagen" width="300"/><br>
+<img src="./Imagenes/Ejercicios/4.png" alt="Mi imagen" width="300"/><br>
 
 ### Resultado
 La recta de regresión es: y = -10 + 60x<br>
