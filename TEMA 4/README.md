@@ -12,7 +12,7 @@
 <a name="método-del-trapecio"></a>
 
 ### Pseudocódigo
-
+```plaintext
 1. Inicio
 2. Mostrar "Método del Trapecio - Integración Numérica"
 3. Solicitar al usuario:
@@ -40,6 +40,7 @@
 11. Detener
 12. Función f(x): Retornar logaritmo natural de x (ln(x))
 Fin Función
+```
 
 ### Caso de prueba
 Función: ln(x)<br>
@@ -57,6 +58,7 @@ Valor exacto: 0.3862<br>
 
 ### Pseudocódigo
 
+```plaintext
 1. Inicio  
 2. Definir la función f(x)  
 3. Leer el límite inferior a, el límite superior b y el número de subintervalos n  
@@ -80,7 +82,8 @@ Valor exacto: 0.3862<br>
    Fin Para  
 9. Valor de integración = (h / 3) * suma  
 10. Mostrar el valor de integración  
-11. Fin  
+11. Fin
+```
 
 ### Caso de prueba
 Función: x²<br>
@@ -98,6 +101,7 @@ Valor exacto: 9.0<br>
 
 ### Pseudocódigo
 
+```plaintext
 1. Inicio  
 2. Definir la función f(x)  
 3. Leer el límite inferior a, el límite superior b y el número de subintervalos n  
@@ -121,7 +125,8 @@ Valor exacto: 9.0<br>
    Fin Para  
 9. Calcular: Resultado = (3 * h / 8) * suma  
 10. Mostrar el resultado  
-11. Fin  
+11. Fin
+```
 
 ### Caso de prueba
 Función: sin(x)<br>
@@ -139,6 +144,7 @@ Valor exacto: 1.0<br>
 
 ### Pseudocódigo
 
+```plaintext
 1. Inicio  
 2. Definir la función f(x)  
 3. Leer el límite inferior a, el límite superior b  
@@ -156,6 +162,7 @@ Valor exacto: 1.0<br>
 8. Calcular el valor de integración: resultado ← ((b - a) / 2) * suma  
 9. Mostrar el valor de integración  
 10. Fin  
+```
 
 ### Caso de prueba
 Función: ln(x)<br>
