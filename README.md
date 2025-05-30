@@ -1,8 +1,8 @@
 # Metodos_Numericos
 ---
 ## Indice
-**Tema 1: Introducción Métodos Numéricos**
-**Tema 2: Métodos de Solución de Ecuaciones**
+**Tema 1: Introducción Métodos Numéricos**<br>
+**Tema 2: Métodos de Solución de Ecuaciones**<br>
 **Tema 3: Métodos de solución de Sistemas de Ecuaciones**
 **Tema 4: Diferenciación e integración Numérica**
 **Tema 5: Interpolación y ajuste de funciones**
